@@ -13,7 +13,7 @@ jmp start
     rule2: db 'Avoid collision with wall and snake itself',0
     rule3: db 'Score will be incremented by one when snake eat food',0
     design: db 'Designed by',0
-    members:db 'Mishaal,Maryam and Areesha',0
+    members:db 'Areesha',0
     start_message:db 'Press enter key to play',0
     score_count: dw 0
     food_location: dw 0
